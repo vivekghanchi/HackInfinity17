@@ -15,14 +15,14 @@ Functions provided in our project:-
 - MSP issued by Govt. for the crops.
 - Latest schemes by Govt. which are beneficial to farmers.
 
-Themes:
+### Themes:
 - Agirculture Production and Management
 - Soil Fertility Management
 - Pest and Disease Management
 - Marketing Information Management
 
 
-Collaborators:
+### Collaborators:
 - Vivek Ghanchi ([@vivekghanchi](https://github.com/vivekghanchi))
 - Bhavya Dave  ([@bdbhavyadave](https://github.com/bdbhavyadave))
 - Dhruvik Neharia ([dhruvikneharia.in](http://dhruvikneharia.in), [@dhruvikn](https://github.com/dhruvikn))
