@@ -27,7 +27,7 @@ And not only that, we are providing this service via 3 different methods i.e.
 - Marketing Information Management
 
 ### Youtube link
- ([Video Link](https://www.youtube.com/watch?v=5AfLFhVDvNk&feature=youtu.be))
+ [Video Link](https://www.youtube.com/watch?v=5AfLFhVDvNk&feature=youtu.be)
 
 
 ### Collaborators:
