@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Farmer's Friend</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <!-- Bootstrap
+    ------------------------------>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <!-- CSS
+    ----------------------------->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="chatbot-screen">
+        <div class="container">
+           <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-10">
+                            <h3>Chatbot</h3>
+                        </div>
+                        <div class="col-2">
+                            <a href="#" class="close">&times;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+            </div>
+        </div>
+    </div>
+    <a href="#" class="chatbot">
+        <div class="chat-icon"></div>
+    </a>
+
+    <script>
+        $(document).ready(function() {
+            $(".chatbot").click(function() {
+                $(".chatbot-screen").slideDown(300);
+            });
+
+            $(".close").click(function() {
+                $(".chatbot-screen").slideUp(300);
+            });
+        });
+    </script>
+
+    <nav class="navbar navbar-expand-lg align-items-center justify-content-center">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <h2>Farmer's Friend</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pesticide Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Crop Diagnosis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Weather</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Market Place</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Language
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="#">Hindi</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 c-image" src="./images/1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 c-image" src="./images/2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 c-image" src="./images/3.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 card">
+                <a href="#">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="card-title">Pesticide Calculator</h4>
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/p-suggest.png" class="s-icon">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 card">
+                <a href="#">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="card-title">Crop Diagnosis</h4>
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/crop.png" class="s-icon">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 card">
+                <a href="#">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="card-title">Weather</h4>
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/weather.png" class="s-icon">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 card">
+                <a href="#">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="card-title">Market Price</h4>
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/market.png" class="s-icon">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Some Dummy Content</h3>
+                <p>
+                    Deserunt quid excepteur. Dolor graviterque iudicem culpa incididunt sed sed summis cupidatat laborum non fugiat officia iis tempor, legam occaecat relinqueret. Sed culpa arbitrantur. Qui nam despicationes, nam ea varias proident id ea quid arbitror relinqueret, summis id si cillum expetendis ab ullamco se quis iis dolor pariatur comprehenderit ita dolor imitarentur officia dolore mandaremus ea cupidatat ipsum eiusmod. Ex id illum voluptate aut laboris ad probant. Incididunt tamen legam do lorem iis nam te fugiat dolore ipsum. Commodo instituendarum in singulis.
+                </p>
+                <p>
+                    Ex quem quae sed probant, vidisse a expetendis non qui ab aute nescius, nostrud distinguantur a laboris. Nam noster duis do quibusdam, mentitum transferrem ad eiusmod de non fore litteris familiaritatem ut excepteur philosophari hic admodum. Sed ab exercitation de quae senserit eu fabulas nam pariatur noster labore o velit, quem quamquam praetermissum. Et legam appellat exercitation in quamquam dolor tempor deserunt. Excepteur an singulis sed sed veniam nescius philosophari, an ab voluptatibus, ex esse quid culpa litteris. Officia lorem officia.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Latest News</h3>
+                <ul>
+                    <li>Quorum te proident, admodum quid irure mentitum dolore.</li>
+                    <li>Quorum te proident, admodum quid irure mentitum dolore.</li>
+                    <li>Quorum te proident, admodum quid irure mentitum dolore.</li>
+                    <li>Quorum te proident, admodum quid irure mentitum dolore.</li>
+                    <li>Quorum te proident, admodum quid irure mentitum dolore.</li>
+                    <li>Quorum te proident, admodum quid irure mentitum dolore.</li>
+                    <li>Quorum te proident, admodum quid.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>About Farmer's Friend</h3>
+                    <hr>
+                    <p>
+                        Offendit ita mandaremus. Multos fabulas iis incididunt. Possumus an sunt. Voluptate quae mentitum, mentitum minim singulis. In e malis quem minim, fugiat quo admodum te irure. Sunt do vidisse aut quae. Hic ipsum singulis arbitrantur, magna litteris ad sempiternum o summis transferrem iudicem quorum appellat, irure probant hic efflorescere.
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h3>Support</h3>
+                    <hr>
+                    <a href="tel:18001801551"><i class="fa fa-phone"></i>&emsp;1800 180 1551</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
