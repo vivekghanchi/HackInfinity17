@@ -5,7 +5,7 @@
 
 ## CodeHunters
 
-Live Demo  ([Live Demo](http://hackinfinity.dhruvikneharia.in/))
+Live Demo Website  ([Live Demo Website](http://hackinfinity.dhruvikneharia.in/))
 
 ### Project Description
 
