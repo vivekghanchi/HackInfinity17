@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_cal"
+            android:icon="@drawable/ic_ac_unit_black_24dp"
+            android:title="Pest Calculator" />
+        <item
+            android:id="@+id/nav_sug"
+            android:icon="@drawable/ic_all_inclusive_black_24dp"
+            android:title="Crop Diagnosis" />
+        <item
+            android:id="@+id/nav_weath"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Weather" />
+        <item
+            android:id="@+id/nav_mark"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Market Updates" />
+    </group>
+
+</menu>
