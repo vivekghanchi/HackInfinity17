@@ -5,6 +5,8 @@
 
 ## CodeHunters
 
+Live Demo  ([Live Demo](http://hackinfinity.dhruvikneharia.in/))
+
 ### Project Description
 
 Our project,  focuses on making farmer aware about how to increase yield of crop, future measures to be taken by looking at Weather forcast and also knowing about MSP issued by govt. for the crop they have grown so that no one cheats them at the time of selling.
