@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Roboto+Slab');
+
+$black: #1C1D21;
+$brown: #826251;
+$brown-d: #473335;
+$yellow: #D17A22;
+$white: #FFFCF2;
+
+$crete: 'Crete Round',
+serif;
+$roboto: 'Roboto Slab',
+serif;
+
+body {
+    background-color: $white;
+    font-family: $roboto;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $yellow;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $crete;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    background-color: $brown-d;
+    color: $white;
+    height: 16em;
+    padding: 40px 0;
+    
+    a {
+        color: $white;
+    }
+}
+
+.s-icon {
+    width: 100%;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid $brown;
+    margin-bottom: 10px;
+}
+
+.chat-icon {
+    background-color: #FF0000;
+    background-image: url(../images/chat-i.svg);
+    background-position: center center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.chatbot-screen {
+    height: 100%;
+    width: 100%;
+    background-color: $brown-d;
+    color: $white;
+    position: fixed;
+    display: none;
+    z-index: 1000000;
+    
+    .close {
+        font-size: 2em;
+        text-align: center;
+        color: $white;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: $brown-d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #894f14;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $brown;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: $brown;
+}
+
+::selection {
+    background-color: $yellow;
+}
+
+
+/* Bootstrap Customs
+*************************/
+
+.navbar {
+    background-color: $brown-d;
+    font-family: $crete;
+    padding: 20px;
+
+    .nav-item {
+        padding: 0 15px;
+    }
+
+    h2 {
+        padding: 0;
+    }
+
+    * {
+        color: $white;
+    }
+    
+    .dropdown-item {
+        color: $black;
+    }
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/menu.png);
+}
+
+.carousel-item {
+    img {
+        height: 100vh;
+    }
+}
+
+.card {
+    a {
+        color: $brown-d;
+    }
+    
+    a:hover {
+        color: $brown;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .carousel-item {
+        img {
+            height: 60vh;
+        }
+    }
+}
