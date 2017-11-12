@@ -15,6 +15,11 @@ Functions provided in our project:-
 - MSP issued by Govt. for the crops.
 - Latest schemes by Govt. which are beneficial to farmers.
 
+And not only that, we are providing this service via 3 different methods i.e.
+- Website.
+- Android App.
+- ChatBot which will feature hindi language also.
+
 ### Themes:
 - Agirculture Production and Management
 - Soil Fertility Management
