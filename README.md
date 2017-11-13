@@ -2,8 +2,8 @@
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-
-## CodeHunters
+## Pest and Disease Management
+### CodeHunters
 
 Live Demo Website  ([Live Demo Website](http://hackinfinity.dhruvikneharia.in/))
 
@@ -22,17 +22,12 @@ And not only that, we are providing this service via 3 different methods i.e.
 - Android App.
 - ChatBot which will feature hindi language also.
 
-### Themes:
-- Agirculture Production and Management
-- Soil Fertility Management
-- Pest and Disease Management
-- Marketing Information Management
 
 ### Youtube link
  [Video Link](https://www.youtube.com/watch?v=5AfLFhVDvNk&feature=youtu.be)
 
 
-### Collaborators:
+### Contributers:
 - Vivek Ghanchi ([@vivekghanchi](https://github.com/vivekghanchi))
 - Bhavya Dave  ([@bdbhavyadave](https://github.com/bdbhavyadave))
 - Dhruvik Neharia ([dhruvikneharia.in](http://dhruvikneharia.in), [@dhruvikn](https://github.com/dhruvikn))
