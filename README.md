@@ -22,7 +22,7 @@ And not only that, we are providing this service via 3 different methods i.e.
 - Android App.
 - ChatBot which will feature hindi language also.
 
-### Connection with Farmer :  
+### Connection with Farmer
 
 
 Our project helps farmer in provinding information on Pesticide amount calculator, crop disease & Solution for the same, Weather forecast, updated MSP of crop as mentioned by Govt. and at last schemes which are executed by govt. for the same. So here as we can see all the functions are directly linked to farmers resulting into linking to Agriculture Themes.
