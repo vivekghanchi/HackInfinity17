@@ -9,7 +9,7 @@ Live Demo Website  ([Live Demo Website](http://hackinfinity.dhruvikneharia.in/))
 
 ### Project Description
 
-Our project,  focuses on making farmer aware about how to increase yield of crop, future measures to be taken by looking at Weather forcast and also knowing about MSP issued by govt. for the crop they have grown so that no one can cheat them at the time of selling of crop.
+Our project,  focuses on making farmer aware about how to increase yield of crop, future measures to be taken by looking at Weather forcast and also knowing about MSP issued by government for the crop they have grown so that no one can cheat them at the time of selling of crop.
 Functions provided in our project:-
 - Pesticides amount calculator
 - Crop Diseases, Diagnosis methods and Solutions for the same.
