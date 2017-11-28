@@ -15,7 +15,7 @@ Our project,  focuses on making farmer aware about how to increase yield of crop
 - Crop Diseases, Diagnosis methods and Solutions for the same.
 - Weather Forecast for the upcoming 7 days.
 - MSP issued by Government for the crops.
-- Latest schemes by Govt. which are beneficial to farmers.
+- Latest schemes by Government. which are beneficial to farmers.
 
 #### We are providing this service via 3 different methods.
 - Website.
