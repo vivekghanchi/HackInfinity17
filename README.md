@@ -1,10 +1,8 @@
 # HackInfinity - 2017
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
 ## Pest and Disease Management
 ### CodeHunters
-
 Live Demo Website  ([Live Demo Website](http://hackinfinity.dhruvikneharia.in/))
 
 ### Project Description
